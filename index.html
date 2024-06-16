@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/main.css">
+    <title>To do list CODXO</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="top">
+            <h1>To Do List CODXO</h1>
+            <input id="searchInput" type="text" placeholder="Search any list">
+        </div>
+        <div id="lists">
+            <ul id="listsInside">
+                <li style="background-color: tomato;">
+                    <input class="textInput" type="text" value="First list sample" disabled>
+                    <i class="fa-solid fa-pencil"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </li>
+            </ul>
+        </div>
+        <div id="bottom">
+            <input id="addInput" type="text" placeholder="Add something to list">
+            <button id="addButton">Add</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
